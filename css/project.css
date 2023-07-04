@@ -333,21 +333,7 @@ img {
     max-width: 730px;
     color: var(--gray-color);
 }
-.question-caption.open::before,
-.question-caption.close::before {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    content: '';
-    background: url("../img/Polygon.png") no-repeat center;
-    margin-right: 15px;
-}
-.question-caption.open::before {
-    transform: rotate(-90deg);
-}
-.question-caption.close + .question-p {
-    display: none;
-}
+
 
 /* partners styles */
 .partners {
